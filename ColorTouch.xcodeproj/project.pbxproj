@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36CF24011C87765200503909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CF24001C87765200503909 /* AppDelegate.swift */; };
+		36CF24031C87765200503909 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36CF24021C87765200503909 /* GameScene.sks */; };
+		36CF24051C87765200503909 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CF24041C87765200503909 /* GameScene.swift */; };
+		36CF24071C87765200503909 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CF24061C87765200503909 /* GameViewController.swift */; };
+		36CF240A1C87765200503909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CF24081C87765200503909 /* Main.storyboard */; };
+		36CF240C1C87765200503909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CF240B1C87765200503909 /* Assets.xcassets */; };
+		36CF240F1C87765200503909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CF240D1C87765200503909 /* LaunchScreen.storyboard */; };
+		36CF241A1C87765200503909 /* ColorTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CF24191C87765200503909 /* ColorTouchTests.swift */; };
+		36CF24251C87765200503909 /* ColorTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CF24241C87765200503909 /* ColorTouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36CF24161C87765200503909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36CF23F51C87765200503909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36CF23FC1C87765200503909;
+			remoteInfo = ColorTouch;
+		};
+		36CF24211C87765200503909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36CF23F51C87765200503909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36CF23FC1C87765200503909;
+			remoteInfo = ColorTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36CF23FD1C87765200503909 /* ColorTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CF24001C87765200503909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36CF24021C87765200503909 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		36CF24041C87765200503909 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		36CF24061C87765200503909 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		36CF24091C87765200503909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36CF240B1C87765200503909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36CF240E1C87765200503909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36CF24101C87765200503909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36CF24151C87765200503909 /* ColorTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CF24191C87765200503909 /* ColorTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTouchTests.swift; sourceTree = "<group>"; };
+		36CF241B1C87765200503909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36CF24201C87765200503909 /* ColorTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CF24241C87765200503909 /* ColorTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTouchUITests.swift; sourceTree = "<group>"; };
+		36CF24261C87765200503909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36CF23FA1C87765200503909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CF24121C87765200503909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CF241D1C87765200503909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36CF23F41C87765200503909 = {
+			isa = PBXGroup;
+			children = (
+				36CF23FF1C87765200503909 /* ColorTouch */,
+				36CF24181C87765200503909 /* ColorTouchTests */,
+				36CF24231C87765200503909 /* ColorTouchUITests */,
+				36CF23FE1C87765200503909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36CF23FE1C87765200503909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36CF23FD1C87765200503909 /* ColorTouch.app */,
+				36CF24151C87765200503909 /* ColorTouchTests.xctest */,
+				36CF24201C87765200503909 /* ColorTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CF23FF1C87765200503909 /* ColorTouch */ = {
+			isa = PBXGroup;
+			children = (
+				36CF24001C87765200503909 /* AppDelegate.swift */,
+				36CF24021C87765200503909 /* GameScene.sks */,
+				36CF24041C87765200503909 /* GameScene.swift */,
+				36CF24061C87765200503909 /* GameViewController.swift */,
+				36CF24081C87765200503909 /* Main.storyboard */,
+				36CF240B1C87765200503909 /* Assets.xcassets */,
+				36CF240D1C87765200503909 /* LaunchScreen.storyboard */,
+				36CF24101C87765200503909 /* Info.plist */,
+			);
+			path = ColorTouch;
+			sourceTree = "<group>";
+		};
+		36CF24181C87765200503909 /* ColorTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				36CF24191C87765200503909 /* ColorTouchTests.swift */,
+				36CF241B1C87765200503909 /* Info.plist */,
+			);
+			path = ColorTouchTests;
+			sourceTree = "<group>";
+		};
+		36CF24231C87765200503909 /* ColorTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36CF24241C87765200503909 /* ColorTouchUITests.swift */,
+				36CF24261C87765200503909 /* Info.plist */,
+			);
+			path = ColorTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36CF23FC1C87765200503909 /* ColorTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CF24291C87765200503909 /* Build configuration list for PBXNativeTarget "ColorTouch" */;
+			buildPhases = (
+				36CF23F91C87765200503909 /* Sources */,
+				36CF23FA1C87765200503909 /* Frameworks */,
+				36CF23FB1C87765200503909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorTouch;
+			productName = ColorTouch;
+			productReference = 36CF23FD1C87765200503909 /* ColorTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36CF24141C87765200503909 /* ColorTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CF242C1C87765200503909 /* Build configuration list for PBXNativeTarget "ColorTouchTests" */;
+			buildPhases = (
+				36CF24111C87765200503909 /* Sources */,
+				36CF24121C87765200503909 /* Frameworks */,
+				36CF24131C87765200503909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36CF24171C87765200503909 /* PBXTargetDependency */,
+			);
+			name = ColorTouchTests;
+			productName = ColorTouchTests;
+			productReference = 36CF24151C87765200503909 /* ColorTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36CF241F1C87765200503909 /* ColorTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CF242F1C87765200503909 /* Build configuration list for PBXNativeTarget "ColorTouchUITests" */;
+			buildPhases = (
+				36CF241C1C87765200503909 /* Sources */,
+				36CF241D1C87765200503909 /* Frameworks */,
+				36CF241E1C87765200503909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36CF24221C87765200503909 /* PBXTargetDependency */,
+			);
+			name = ColorTouchUITests;
+			productName = ColorTouchUITests;
+			productReference = 36CF24201C87765200503909 /* ColorTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36CF23F51C87765200503909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Eric Internicola";
+				TargetAttributes = {
+					36CF23FC1C87765200503909 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					36CF24141C87765200503909 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 36CF23FC1C87765200503909;
+					};
+					36CF241F1C87765200503909 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 36CF23FC1C87765200503909;
+					};
+				};
+			};
+			buildConfigurationList = 36CF23F81C87765200503909 /* Build configuration list for PBXProject "ColorTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36CF23F41C87765200503909;
+			productRefGroup = 36CF23FE1C87765200503909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36CF23FC1C87765200503909 /* ColorTouch */,
+				36CF24141C87765200503909 /* ColorTouchTests */,
+				36CF241F1C87765200503909 /* ColorTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36CF23FB1C87765200503909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CF24031C87765200503909 /* GameScene.sks in Resources */,
+				36CF240F1C87765200503909 /* LaunchScreen.storyboard in Resources */,
+				36CF240C1C87765200503909 /* Assets.xcassets in Resources */,
+				36CF240A1C87765200503909 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CF24131C87765200503909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CF241E1C87765200503909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CF23F91C87765200503909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CF24051C87765200503909 /* GameScene.swift in Sources */,
+				36CF24071C87765200503909 /* GameViewController.swift in Sources */,
+				36CF24011C87765200503909 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CF24111C87765200503909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CF241A1C87765200503909 /* ColorTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CF241C1C87765200503909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CF24251C87765200503909 /* ColorTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36CF24171C87765200503909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36CF23FC1C87765200503909 /* ColorTouch */;
+			targetProxy = 36CF24161C87765200503909 /* PBXContainerItemProxy */;
+		};
+		36CF24221C87765200503909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36CF23FC1C87765200503909 /* ColorTouch */;
+			targetProxy = 36CF24211C87765200503909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36CF24081C87765200503909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CF24091C87765200503909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36CF240D1C87765200503909 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CF240E1C87765200503909 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36CF24271C87765200503909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36CF24281C87765200503909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36CF242A1C87765200503909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colasoft.ColorTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36CF242B1C87765200503909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colasoft.ColorTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36CF242D1C87765200503909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ColorTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colasoft.ColorTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorTouch.app/ColorTouch";
+			};
+			name = Debug;
+		};
+		36CF242E1C87765200503909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colasoft.ColorTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorTouch.app/ColorTouch";
+			};
+			name = Release;
+		};
+		36CF24301C87765200503909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ColorTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colasoft.ColorTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		36CF24311C87765200503909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colasoft.ColorTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36CF23F81C87765200503909 /* Build configuration list for PBXProject "ColorTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CF24271C87765200503909 /* Debug */,
+				36CF24281C87765200503909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CF24291C87765200503909 /* Build configuration list for PBXNativeTarget "ColorTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CF242A1C87765200503909 /* Debug */,
+				36CF242B1C87765200503909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36CF242C1C87765200503909 /* Build configuration list for PBXNativeTarget "ColorTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CF242D1C87765200503909 /* Debug */,
+				36CF242E1C87765200503909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36CF242F1C87765200503909 /* Build configuration list for PBXNativeTarget "ColorTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CF24301C87765200503909 /* Debug */,
+				36CF24311C87765200503909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36CF23F51C87765200503909 /* Project object */;
+}
